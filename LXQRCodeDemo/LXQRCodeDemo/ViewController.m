@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Masonry.h"
+#import "LXQRCodeViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.navigationController.navigationBar.translucent = NO;
+    UIButton *scanButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [scanButton setTitle:@"扫一扫" forState:UIControlStateNormal];
+    [scanButton setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    [scanButton addTarget:self action:@selector(scanButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:scanButton];
+    [scanButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@100);
+        make.top.equalTo(@100);
+        make.size.mas_equalTo(CGSizeMake(80, 80));
+    }];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)scanButtonClicked{
+    LXQRCodeViewController *scanVC = [[LXQRCodeViewController alloc] init];
+    [self.navigationController pushViewController:scanVC animated:YES];
 }
 
 
