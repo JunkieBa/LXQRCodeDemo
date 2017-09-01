@@ -185,4 +185,26 @@
     [self.previewLayer removeFromSuperlayer];
 }
 
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    switch (buttonIndex) {
+        case 1:{
+            NSURL *url = nil;
+            if ([[UIDevice currentDevice] systemVersion].floatValue >= 8.0 && UIApplicationOpenSettingsURLString != NULL) {
+                url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+            } else {
+                url = [NSURL URLWithString:@"prefs:root=prefs:root=Photos"];
+            }
+            if ([[UIApplication sharedApplication] canOpenURL:url]) {
+                [[UIApplication sharedApplication] openURL:url];
+            } else {
+                
+            }
+        }
+            break;
+        default:
+            break;
+    }
+}
+
+
 @end
