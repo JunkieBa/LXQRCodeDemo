@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A3E1901F592823004C2653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E18F1F592823004C2653 /* main.m */; };
+		48A3E1931F592823004C2653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E1921F592823004C2653 /* AppDelegate.m */; };
+		48A3E1961F592823004C2653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E1951F592823004C2653 /* ViewController.m */; };
+		48A3E1991F592823004C2653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A3E1971F592823004C2653 /* Main.storyboard */; };
+		48A3E19B1F592823004C2653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A3E19A1F592823004C2653 /* Assets.xcassets */; };
+		48A3E19E1F592823004C2653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A3E19C1F592823004C2653 /* LaunchScreen.storyboard */; };
+		48A3E1A91F592824004C2653 /* LXQRCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E1A81F592824004C2653 /* LXQRCodeDemoTests.m */; };
+		48A3E1B41F592824004C2653 /* LXQRCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E1B31F592824004C2653 /* LXQRCodeDemoUITests.m */; };
+		A3245FF0ADF75BBFBFBFD095 /* libPods-LXQRCodeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8BD836D2E04ED573B2C717 /* libPods-LXQRCodeDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A3E1A51F592824004C2653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A3E1831F592823004C2653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A3E18A1F592823004C2653;
+			remoteInfo = LXQRCodeDemo;
+		};
+		48A3E1B01F592824004C2653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A3E1831F592823004C2653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A3E18A1F592823004C2653;
+			remoteInfo = LXQRCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48A3E18B1F592823004C2653 /* LXQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A3E18F1F592823004C2653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48A3E1911F592823004C2653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48A3E1921F592823004C2653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48A3E1941F592823004C2653 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48A3E1951F592823004C2653 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48A3E1981F592823004C2653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A3E19A1F592823004C2653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A3E19D1F592823004C2653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48A3E19F1F592823004C2653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A3E1A41F592824004C2653 /* LXQRCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQRCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A3E1A81F592824004C2653 /* LXQRCodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQRCodeDemoTests.m; sourceTree = "<group>"; };
+		48A3E1AA1F592824004C2653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A3E1AF1F592824004C2653 /* LXQRCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXQRCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A3E1B31F592824004C2653 /* LXQRCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXQRCodeDemoUITests.m; sourceTree = "<group>"; };
+		48A3E1B51F592824004C2653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8BD836D2E04ED573B2C717 /* libPods-LXQRCodeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXQRCodeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BE2F4107A3418EE8F32945 /* Pods-LXQRCodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXQRCodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXQRCodeDemo/Pods-LXQRCodeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EBA58C5141E740A0A644C7DB /* Pods-LXQRCodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXQRCodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXQRCodeDemo/Pods-LXQRCodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A3E1881F592823004C2653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3245FF0ADF75BBFBFBFD095 /* libPods-LXQRCodeDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1A11F592824004C2653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1AC1F592824004C2653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A3E1821F592823004C2653 = {
+			isa = PBXGroup;
+			children = (
+				48A3E18D1F592823004C2653 /* LXQRCodeDemo */,
+				48A3E1A71F592824004C2653 /* LXQRCodeDemoTests */,
+				48A3E1B21F592824004C2653 /* LXQRCodeDemoUITests */,
+				48A3E18C1F592823004C2653 /* Products */,
+				9FC1235B52C74D8B7043C42E /* Pods */,
+				8538395D02D0A512B38547B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48A3E18C1F592823004C2653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A3E18B1F592823004C2653 /* LXQRCodeDemo.app */,
+				48A3E1A41F592824004C2653 /* LXQRCodeDemoTests.xctest */,
+				48A3E1AF1F592824004C2653 /* LXQRCodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A3E18D1F592823004C2653 /* LXQRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48A3E1911F592823004C2653 /* AppDelegate.h */,
+				48A3E1921F592823004C2653 /* AppDelegate.m */,
+				48A3E1941F592823004C2653 /* ViewController.h */,
+				48A3E1951F592823004C2653 /* ViewController.m */,
+				48A3E1971F592823004C2653 /* Main.storyboard */,
+				48A3E19A1F592823004C2653 /* Assets.xcassets */,
+				48A3E19C1F592823004C2653 /* LaunchScreen.storyboard */,
+				48A3E19F1F592823004C2653 /* Info.plist */,
+				48A3E18E1F592823004C2653 /* Supporting Files */,
+			);
+			path = LXQRCodeDemo;
+			sourceTree = "<group>";
+		};
+		48A3E18E1F592823004C2653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A3E18F1F592823004C2653 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A3E1A71F592824004C2653 /* LXQRCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A3E1A81F592824004C2653 /* LXQRCodeDemoTests.m */,
+				48A3E1AA1F592824004C2653 /* Info.plist */,
+			);
+			path = LXQRCodeDemoTests;
+			sourceTree = "<group>";
+		};
+		48A3E1B21F592824004C2653 /* LXQRCodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48A3E1B31F592824004C2653 /* LXQRCodeDemoUITests.m */,
+				48A3E1B51F592824004C2653 /* Info.plist */,
+			);
+			path = LXQRCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		8538395D02D0A512B38547B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8BD836D2E04ED573B2C717 /* libPods-LXQRCodeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FC1235B52C74D8B7043C42E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA58C5141E740A0A644C7DB /* Pods-LXQRCodeDemo.debug.xcconfig */,
+				D4BE2F4107A3418EE8F32945 /* Pods-LXQRCodeDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A3E18A1F592823004C2653 /* LXQRCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A3E1B81F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemo" */;
+			buildPhases = (
+				5F85D2195494D0662E0C34A4 /* [CP] Check Pods Manifest.lock */,
+				48A3E1871F592823004C2653 /* Sources */,
+				48A3E1881F592823004C2653 /* Frameworks */,
+				48A3E1891F592823004C2653 /* Resources */,
+				0D9F6C3D1714AFD1C268DFF3 /* [CP] Embed Pods Frameworks */,
+				FFEDB9B21E845051BE67ADA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXQRCodeDemo;
+			productName = LXQRCodeDemo;
+			productReference = 48A3E18B1F592823004C2653 /* LXQRCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A3E1A31F592824004C2653 /* LXQRCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A3E1BB1F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemoTests" */;
+			buildPhases = (
+				48A3E1A01F592824004C2653 /* Sources */,
+				48A3E1A11F592824004C2653 /* Frameworks */,
+				48A3E1A21F592824004C2653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A3E1A61F592824004C2653 /* PBXTargetDependency */,
+			);
+			name = LXQRCodeDemoTests;
+			productName = LXQRCodeDemoTests;
+			productReference = 48A3E1A41F592824004C2653 /* LXQRCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48A3E1AE1F592824004C2653 /* LXQRCodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A3E1BE1F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemoUITests" */;
+			buildPhases = (
+				48A3E1AB1F592824004C2653 /* Sources */,
+				48A3E1AC1F592824004C2653 /* Frameworks */,
+				48A3E1AD1F592824004C2653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A3E1B11F592824004C2653 /* PBXTargetDependency */,
+			);
+			name = LXQRCodeDemoUITests;
+			productName = LXQRCodeDemoUITests;
+			productReference = 48A3E1AF1F592824004C2653 /* LXQRCodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A3E1831F592823004C2653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = alisa;
+				TargetAttributes = {
+					48A3E18A1F592823004C2653 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					48A3E1A31F592824004C2653 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48A3E18A1F592823004C2653;
+					};
+					48A3E1AE1F592824004C2653 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48A3E18A1F592823004C2653;
+					};
+				};
+			};
+			buildConfigurationList = 48A3E1861F592823004C2653 /* Build configuration list for PBXProject "LXQRCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A3E1821F592823004C2653;
+			productRefGroup = 48A3E18C1F592823004C2653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A3E18A1F592823004C2653 /* LXQRCodeDemo */,
+				48A3E1A31F592824004C2653 /* LXQRCodeDemoTests */,
+				48A3E1AE1F592824004C2653 /* LXQRCodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A3E1891F592823004C2653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A3E19E1F592823004C2653 /* LaunchScreen.storyboard in Resources */,
+				48A3E19B1F592823004C2653 /* Assets.xcassets in Resources */,
+				48A3E1991F592823004C2653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1A21F592824004C2653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1AD1F592824004C2653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D9F6C3D1714AFD1C268DFF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXQRCodeDemo/Pods-LXQRCodeDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F85D2195494D0662E0C34A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFEDB9B21E845051BE67ADA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXQRCodeDemo/Pods-LXQRCodeDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A3E1871F592823004C2653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A3E1961F592823004C2653 /* ViewController.m in Sources */,
+				48A3E1931F592823004C2653 /* AppDelegate.m in Sources */,
+				48A3E1901F592823004C2653 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1A01F592824004C2653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A3E1A91F592824004C2653 /* LXQRCodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A3E1AB1F592824004C2653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A3E1B41F592824004C2653 /* LXQRCodeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A3E1A61F592824004C2653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A3E18A1F592823004C2653 /* LXQRCodeDemo */;
+			targetProxy = 48A3E1A51F592824004C2653 /* PBXContainerItemProxy */;
+		};
+		48A3E1B11F592824004C2653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A3E18A1F592823004C2653 /* LXQRCodeDemo */;
+			targetProxy = 48A3E1B01F592824004C2653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48A3E1971F592823004C2653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A3E1981F592823004C2653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A3E19C1F592823004C2653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A3E19D1F592823004C2653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A3E1B61F592824004C2653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48A3E1B71F592824004C2653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A3E1B91F592824004C2653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA58C5141E740A0A644C7DB /* Pods-LXQRCodeDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXQRCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48A3E1BA1F592824004C2653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BE2F4107A3418EE8F32945 /* Pods-LXQRCodeDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXQRCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48A3E1BC1F592824004C2653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQRCodeDemo.app/LXQRCodeDemo";
+			};
+			name = Debug;
+		};
+		48A3E1BD1F592824004C2653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXQRCodeDemo.app/LXQRCodeDemo";
+			};
+			name = Release;
+		};
+		48A3E1BF1F592824004C2653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXQRCodeDemo;
+			};
+			name = Debug;
+		};
+		48A3E1C01F592824004C2653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisa.LXQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXQRCodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A3E1861F592823004C2653 /* Build configuration list for PBXProject "LXQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A3E1B61F592824004C2653 /* Debug */,
+				48A3E1B71F592824004C2653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A3E1B81F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A3E1B91F592824004C2653 /* Debug */,
+				48A3E1BA1F592824004C2653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48A3E1BB1F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A3E1BC1F592824004C2653 /* Debug */,
+				48A3E1BD1F592824004C2653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48A3E1BE1F592824004C2653 /* Build configuration list for PBXNativeTarget "LXQRCodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A3E1BF1F592824004C2653 /* Debug */,
+				48A3E1C01F592824004C2653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A3E1831F592823004C2653 /* Project object */;
+}
