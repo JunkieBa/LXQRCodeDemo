@@ -137,7 +137,16 @@
         }];
     } else {
         // 设置需要解析的数据类型，二维码
-        self.metadataOutput.metadataObjectTypes = @[AVMetadataObjectTypeQRCode];
+        self.metadataOutput.metadataObjectTypes = @[AVMetadataObjectTypeQRCode,//二维码
+                                                    //以下为条形码，如果项目只需要扫描二维码，下面都不要写
+                                                    AVMetadataObjectTypeEAN13Code,
+                                                    AVMetadataObjectTypeEAN8Code,
+                                                    AVMetadataObjectTypeUPCECode,
+                                                    AVMetadataObjectTypeCode39Code,
+                                                    AVMetadataObjectTypeCode39Mod43Code,
+                                                    AVMetadataObjectTypeCode93Code,
+                                                    AVMetadataObjectTypeCode128Code,
+                                                    AVMetadataObjectTypePDF417Code];
     }
 }
 
@@ -170,10 +179,11 @@
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
     //判断是否有数据
     if (metadataObjects != nil && [metadataObjects count] > 0) {
+        [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
         AVMetadataMachineReadableCodeObject *metadataObj = [metadataObjects objectAtIndex:0];
         //判断回传的数据类型
-        if ([[metadataObj type] isEqualToString:AVMetadataObjectTypeQRCode]) {
-            [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
+        if ([[metadataObj type] isEqualToString:AVMetadataObjectTypeQRCode]) {//二维码
+            
         }
     }
 }
